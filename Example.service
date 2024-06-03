@@ -1,0 +1,9 @@
+[Unit]
+Description=SecureBoot Service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/your_quantum_profile_here
+
+[Install]
+WantedBy=multi-user.target
